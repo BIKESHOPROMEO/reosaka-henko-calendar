@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           cell.textContent = "◎";
           cell.classList.add("available");
           cell.addEventListener("click", () => {
-            const url = new URL("https://henko-form.vercel.app/");
+            const url = new URL("https://reosaka-henko-form.vercel.app/");
             url.searchParams.set("id", originalId);
             url.searchParams.set("date", d.date);
             url.searchParams.set("time", hour);
